@@ -99,14 +99,14 @@
             </dependencies>
             <distributionManagement>
                 <repository>
-                    <id>artifactory</id>
-                    <name>Artifactory</name>
-                    <url>http://localhost:8041/artifactory/Maven</url>
+                    <id>central</id>
+                    <name>artifactory-0-releases</name>
+                    <url>https://packages.test.octopushq.com/artifactory/clare_maven</url>
                 </repository>
                 <snapshotRepository>
-                    <id>artifactorysnapshots</id>
-                    <name>Artifactory-Snapshots</name>
-                    <url>http://localhost:8041/artifactory/Maven</url>
+                    <id>snapshots</id>
+                    <name>artifactory-0-snapshots</name>
+                    <url>https://packages.test.octopushq.com/artifactory/clare_maven</url>
                 </snapshotRepository>
             </distributionManagement>
         </profile>
